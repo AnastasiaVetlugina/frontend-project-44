@@ -5,6 +5,7 @@
   "description": "[![Actions Status](https://github.com/AnastasiaVetlugina/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/AnastasiaVetlugina/frontend-project-44/actions)",
   "main": "index.js",
   "bin": {
+    "brain-even": "bin/brain-even.js",
     "brain-games": "bin/brain-games.js"
   },
   "scripts": {
@@ -19,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/AnastasiaVetlugina/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/AnastasiaVetlugina/frontend-project-44#readme"
+  "homepage": "https://github.com/AnastasiaVetlugina/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "eslint": "^9.31.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0"
+  }
 }
